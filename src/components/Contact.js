@@ -27,12 +27,12 @@ function Contact() {
         (result) => {
           form.current.reset();
           setState({ loading: false });
-          toast(
+          toast.success(
             "Thank you!Your message has been successfully sent. We will contact you very soon!",
             {
               position: "top-right",
               autoClose: 5000,
-              theme="dark",
+              theme:"dark",
                     }
           );
           console.log(result.text);
