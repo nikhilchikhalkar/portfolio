@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { HiBars3BottomRight, HiXMark } from "react-icons/hi2";
-// import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
 
 function Navbar() {
@@ -124,7 +124,7 @@ function Navbar() {
               </Link>
             </li>
             <li className="my-7 md:my-0 md:ml-8 font-bold ">
-              <Link
+              <NavLink
                 className="group inline-block rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75"
                 to="https://drive.google.com/file/d/1alAj7aEJxakezS7nIRnAt7J3-4ihsQRw/view?usp=sharing"
                 target="_blank"
@@ -132,7 +132,7 @@ function Navbar() {
                 <span className="block rounded-full dark:bg-gray-900 px-8 py-3 text-sm font-medium group-hover:bg-transparent">
                   Resume Download
                 </span>
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>
