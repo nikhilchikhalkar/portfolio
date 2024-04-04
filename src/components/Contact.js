@@ -32,7 +32,7 @@ function Contact() {
             {
               position: "top-right",
               autoClose: 5000,
-              theme="dark"
+              theme="dark",
                     }
           );
           console.log(result.text);
