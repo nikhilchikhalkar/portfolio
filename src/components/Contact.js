@@ -27,7 +27,7 @@ function Contact() {
         (result) => {
           form.current.reset();
           setState({ loading: false });
-          toast.success(
+          toast(
             "Thank you!Your message has been successfully sent. We will contact you very soon!",
             {
               position: "top-right",
