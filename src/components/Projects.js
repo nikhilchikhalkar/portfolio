@@ -19,8 +19,8 @@ function Projects() {
       title: "Latest News Blog(API-data)",
       dec: "A web application that leverages React.js for front-end development, integrating with an external news API to fetch and display real-time news content. The project also utilizes the Bootstrap framework to enhance the user interface..",
       tools: "HTML, CSS, JavaScript, React, axios, Bootstrap.",
-      github_code: "https://github.com/nikhilchikhalkar/News_api_frontend",
-      diploy_link: "",
+      github_code: "https://github.com/nikhilchikhalkar/News_app_frontend",
+      diploy_link: "https://news-app-frontend-five.vercel.app/",
       image: project2,
     },
   ];
