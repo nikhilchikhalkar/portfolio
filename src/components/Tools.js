@@ -1,26 +1,31 @@
 import React from "react";
+import vscode from "../assets/vscode.png";
+import git from "../assets/git.jpg";
+import netlify from "../assets/netlify.png";
+import vercel from "../assets/vercel.png";
+import postman from "../assets/postman.png";
 
 function Tools() {
   const skill = [
     {
       name: "VS Code",
-      url: "https://akshaykadu24.github.io/static/media/vscode.e66400756ccbdbfc0b31.png",
+      url: vscode,
     },
     {
       name: "Git",
-      url: "https://banner2.cleanpng.com/20190130/bzb/kisspng-git-merge-branching-version-control-commit-improved-git-management-5c52287a5e9491.9117513715488881863874.jpg",
+      url: git,
     },
     {
       name: "Netlify",
-      url: "https://akshaykadu24.github.io/static/media/netlify.7b25ee4c2e48d2f75857bcaff16fbc44.svg",
+      url: netlify,
     },
     {
       name: "Vercel",
-      url: "https://akshaykadu24.github.io/static/media/vercel.e939159f8dcd5cad534a93caf63b0b3c.svg",
+      url: vercel,
     },
     {
       name: "Postman",
-      url: "https://media.licdn.com/dms/image/C560BAQFf8sH83foEVg/company-logo_200_200/0/1654794308958/postman_platform_logo?e=1720051200&v=beta&t=o2qWsqHaD29t6Ok02dOfgawf89wfUPhjhYHSiI-zQ4c",
+      url: postman,
     },
   ];
 
