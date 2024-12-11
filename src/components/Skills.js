@@ -1,10 +1,22 @@
 import React from "react";
+import html from "../assets/html.png";
+import css from "../assets/css.png";
+import boostrap from "../assets/boostrap.png";
+import js from "../assets/js.jpg";
+import reactjs from "../assets/reactjs.png";
+import reduxjs from "../assets/redux.png";
+import nodejs from "../assets/nodejs.png";
+import expressjs from  "../assets/expressjs.webp";
+import nextjs from "../assets/nextjs.png";
+import mongodb from "../assets/mongodb.png";
+import tailwindcss from "../assets/tailwindcss.png";
 
 function Skills() {
   const skill = [
     {
       name: "HTML",
-      url: "https://akshaykadu24.github.io/static/media/html.6e930594286d8afe4c79.png",
+      // url: "https://akshaykadu24.github.io/static/media/html.6e930594286d8afe4c79.png",
+      url: html,
     },
     {
       name: "CSS",
