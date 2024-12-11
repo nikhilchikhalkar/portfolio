@@ -15,48 +15,51 @@ function Skills() {
   const skill = [
     {
       name: "HTML",
-      // url: "https://akshaykadu24.github.io/static/media/html.6e930594286d8afe4c79.png",
       url: html,
     },
     {
       name: "CSS",
-      url: "https://akshaykadu24.github.io/static/media/css.1a57e67ac1fd2ea84d64.png",
+      url: css,
     },
     {
       name: "Boostrap",
-      url: "https://akshaykadu24.github.io/static/media/boostrap.c5dedb5348b058d36661.png",
+      url: boostrap,
     },
     {
       name: "Javascript",
-      url: "https://banner2.cleanpng.com/20180411/cvq/kisspng-javascript-html-computer-software-web-browser-watermark-5acdbd54ac19f7.4484983215234327887049.jpg",
+      url: js,
     },
     {
       name: "React Js",
-      url: "https://akshaykadu24.github.io/static/media/react.4e0c97009b885bfa75c5412262a46f5f.svg",
+      url: reactjs,
+    },
+    {
+      name: "React-Native",
+      url: reactjs,
     },
     {
       name: "Redux",
-      url: "https://akshaykadu24.github.io/static/media/redux.1b4bb5fceb01b19da59d.png",
+      url: reduxjs,
     },
     {
       name: "Node js",
-      url: "https://akshaykadu24.github.io/static/media/nodejs.8e341cc00e4ec40c6a27.png",
+      url: nodejs,
     },
     {
       name: "Express Js",
-      url: "https://akshaykadu24.github.io/static/media/expressjs.b1ea2a56a1684a950424.webp",
+      url: expressjs,
     },
     {
       name: "Next Js",
-      url: "https://akshaykadu24.github.io/static/media/nextjs.6db19b31cc0a2f63cff4.png",
+      url: nextjs,
     },
     {
       name: "MongoDb",
-      url: "https://akshaykadu24.github.io/static/media/mongodb.7a16fc61d457c9e340e2.png",
+      url: mongodb,
     },
     {
       name: "Tailwind Css",
-      url: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+      url: tailwindcss,
     },
   ];
 
